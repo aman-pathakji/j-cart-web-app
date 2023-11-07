@@ -1,0 +1,64 @@
+/* body{
+    background-image:url('./Imagge/natural1.jpeg') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 400px 300px;
+    background-attachment: fixed;
+} */
+/* 
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing:border-box ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image:url('./Imagge/natural1.jpeg') ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 20px 70px;
+}
+
+section{
+    background-image: linear-gradient(#ffffff,#cecec3);
+    margin-bottom: 5px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+} */
+
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing:border-box ;
+  }
+  html,body{
+      height: 100%;
+      width: 100%;
+  }
+
+  div{
+    font-size: 100px;
+    background-image:linear-gradient(yellow,red) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: cursive;
+  }

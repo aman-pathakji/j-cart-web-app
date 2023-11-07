@@ -1,0 +1,75 @@
+/* Asignment-1 */
+div{
+    background-color: aquamarine;
+    height: 400px;
+    width: 500px;
+    margin: 250px auto;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: contain;
+   /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
+   background: linear-gradient(to bottom, orange,white,green);
+}
+
+#A{
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    margin: 200px auto;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: contain;
+   clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+   background: linear-gradient(to bottom,magenta, blue,red,yellow);
+}
+
+#B{
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    margin: 150px auto;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: contain;
+   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+   background: linear-gradient(to left bottom,blue,green,deeppink,yellow);
+}
+
+#C{
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    margin: 250px auto;
+   background-image: url();
+   background-repeat: no-repeat;
+   clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+   background: linear-gradient(to right bottom,yellow,red,green,blue,yellow,orange,red);
+}
+
+/* Aignment-2 */
+
+#D{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    margin: 250px auto;
+    border: 5px solid black;
+   background-image: url();
+   background-repeat: no-repeat;
+   clip-path: circle(50% at 50% 50%);
+   background-image: url('Imagge/natural.jpeg') ;
+   background-size: cover;
+}
+
+#E{
+    background-color: aqua;
+    height: 500px;
+    width: 700px;
+    margin: 250px auto;
+   border: 5px solid black;
+   clip-path: inset(5% 20% 15% 10%);
+   background-image: url('Imagge/natural1.jpeg'), url('Imagge/natural1.jpeg'),url('Imagge/natural1.jpeg'),url('Imagge/natural1.jpeg'),url('Imagge/natural1.jpeg');
+   background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+background-size: 150px 120px,150px 120px,150px 120px,150px 120px,150px 120px;
+background-position: top left,top right,bottom left,bottom right, center center;
+}

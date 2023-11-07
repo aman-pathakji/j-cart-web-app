@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- COMBINATOR SELECTOR -->
+
+    <h3>2. COMBINATOR SELECTOR</h3>
+
+    <article>
+      <!-- Article>div{Direct Child-$}*2+span>div{indirect child-$}*1^^div{Immediate or adjacent sibiling or generel sibiling-1}+div{general sibiling-$@2} -->
+      <div>Direct Child-1</div>
+      <div>Direct Child-2</div>
+      <span>
+        <h4>Indirect Child-1</h4>
+      </span>
+    </article>
+    <!-- <h5>July</h5> -->
+    <div>Immediate or Adjacent Sibiling or General Sibiling-1</div>
+    <div>General Sibiling-2</div>
+    <div>General Sibiling-3</div>
+    <main>General sibiling-4</main>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- ATTRIBUTE SELECTOR -->
+
+    <h3>3. ATTRIBUTE SELECTOR</h3>
+
+    <div title="">Div tag-1</div>
+    <div id="">Div tag-2</div>
+
+    <div id="tag-3">Div tag-3</div>
+
+    <div class="div3 container">Div tag-3</div>
+    <div class="div4 container">Div tag-4</div>
+    <br />
+    <div class="container div5">Div tag-5</div>
+    <div class="container div6">Div tag-6</div>
+    <br />
+    <div class="container content1 div7">Div tag-7</div>
+    <div class="container content2 div8">Div tag-8</div>
+    <br />
+    <br />
+    <br />
+
+    <!-- PSEUDO CLASS SELECTOR -->
+
+    <h2>4. PSEUDO CLASS SELECTOR</h2>
+
+    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+    <br />
+    <a href="http://">Google</a>
+    <br />
+    <a
+      href="mailto:amanpathak1828@gmail.com?cc=panditamanpathak@gmail.com&subject=Try&body=this is testing"
+      target="_blank"
+      >Go to Email</a
+    ><br />
+    <a href="tel:+0000000000">Call me</a>
+    <br />
+    <a href="Imagge/1669372967389.jpg" download="aman.jpg">Download</a>
+    <br />
+    Go to <a href="index2.html">index2</a> File
+    <br />
+    <br />
+    Go to<a href="#first">1 <sup>st</sup> </a>
+    <br />
+    Go to<a href="#second">2 <sup>nd</sup></a>
+    <br />
+    Go to<a href="#third">3 <sup>rd</sup></a>
+    <br />
+    <h3 id="first">Web technology</h3>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nisi!
+    </p>
+    <br />
+    <br />
+
+    <h3 id="second">MongoDB</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore delectus
+      nesciunt soluta quod id! Fugit et deleniti libero quam numquam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore delectus
+      nesciunt soluta quod id! Fugit et deleniti libero quam numquam.
+    </p>
+
+    <h3 id="third">Java</h3>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sint
+      illo commodi nemo similique corrupti ea sed suscipit aliquam maxime!
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sint
+      illo commodi nemo similique corrupti ea sed suscipit aliquam maxime!
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sint
+      illo commodi nemo similique corrupti ea sed suscipit aliquam maxime!
+    </p>
+
+    <br />
+
+    <a href="#">Go to top</a>
+    <br />
+
+    <a href="https://www.nykaa.com" target="_blank">Nykaa</a>
+    <br />
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+      laudantium.
+    </p>
+
+    <br /><br />
+    <br />
+    <br />
+
+    <!-- article>(div{Div tag-$}+span{Span tag-$})*4 -->
+    <article>
+      <div>Div tag-1</div>
+      <span>Span tag-1</span>
+      <div>Div tag-2</div>
+      <span>Span tag-2</span>
+      <div>Div tag-3</div>
+      <span>Span tag-3</span>
+      <div>Div tag-4</div>
+      <span>Span tag-4</span>
+    </article>
+
+    <br />
+    <br />
+
+    <br />
+    <br />
+    <!-- PSEUDO ELEMENT SELECTOR -->
+
+    <h3>5. PSEUDO ELEMENT SELECTOR</h3>
+    <h4>First-Letter</h4>
+
+    <div>Aman</div>
+    <span>Aman <span>Pathak</span></span>
+
+    <br />
+    <br />
+    <h4>First-line and Selection</h4>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem non
+      veniam ab! Omnis fugit, accusantium natus soluta voluptatem accusamus
+      nostrum saepe reprehenderit, eum optio porro similique, perspiciatis
+      necessitatibus consequuntur nobis!
+    </p>
+
+    <h4>Marker</h4>
+    <ol>
+      <li>Dal Chawal</li>
+      <li>Spring Roll</li>
+      <li>Rajma Chawal</li>
+      <li>Momos</li>
+      <li>Sahi Paneer</li>
+      <li>Chilli Potato</li>
+      <li>Kadhi</li>
+    </ol>
+
+<div>
+  Namastey
+</div>
+
+  </body>
+</html>

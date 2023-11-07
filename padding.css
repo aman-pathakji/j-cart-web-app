@@ -1,0 +1,47 @@
+*{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* PADDING */
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: justify;
+    /* padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px; */
+    padding: 50px 30px 50px 30px;
+
+
+/* MARgIN */
+
+margin: 150px auto;
+
+/* BORDER */
+/* border-width: 10px;
+border-style: groove;
+border-color: orange; */
+
+/* border: 20px groove orange; */
+
+border-top: 15px double red;
+border-bottom: 15px solid green;
+border-left: 15px groove orange;
+border-right: 15px dotted blue;
+
+}
+  
+/* body{
+    padding: 150px 40% 150px 40%;
+} */
+

@@ -1,0 +1,167 @@
+
+/* COMBINATOR SELECTOR */
+
+/* article div {
+    background-color: orange;
+    color: white;
+    
+} */
+
+article h4{
+    background-color: green;
+    
+}
+/* article+h5+div */
+article+ div {
+    background-color: yellow;
+    color: black;
+}
+
+/* article~div{
+    background-color: aqua;
+} */
+
+/* article~div, article~main{
+    background-color: red;
+    color: white;
+} */
+
+
+/* ATTRIBUTE SELECTOR */
+
+div[title]{
+    background-color: green;
+}
+
+div[id]{
+    background-color: red;
+}
+
+#tag-3{
+    background-color: bisque;
+}
+
+div[class^="div4"]{
+    background-color: yellow;
+}
+
+div[class$="div5"]{
+    background-color: blue;
+}
+
+div[class~="content2"]{
+    background-color:deeppink;
+}
+div[class*="1"]{
+    background-color: blueviolet;
+}
+
+
+/*PSEUDO CLASS SELECTOR  */
+
+a:link{
+    color: green;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color:black;
+}
+
+p:hover{
+    background-color: blueviolet;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: (-50%,-50%);
+}
+p:hover{
+    box-shadow: 0px,0px,;
+}
+/* 
+article  :first-child{
+    background-color: green;
+}
+
+article :last-child{
+    background-color: green;
+}
+
+article :nth-child(e){
+    background-color: green;
+}
+ */
+
+ article div:first-of-type{
+    background-color: green;
+ }
+
+ article span:first-of-type{
+    background-color: red ;
+ }
+
+ article div:last-of-type{
+    background-color: green;
+ }
+ article span:last-of-type{
+    background-color: red;
+ }
+
+ article div:nth-of-type(3){
+    background-color: aqua;
+ }
+
+ article span:nth-of-type(2){
+    background-color: yellow;
+ }
+
+ /* PSEUDO ELEMENT SELECTOR */
+
+ /* div::first-letter{
+    background-color: aqua;
+    font-size: 30px;
+ } */
+
+ span{
+    display:inline-block
+ }
+ span::first-letter{
+    color: red;
+    font-size: 20px;
+ }
+
+ p::first-line{
+    color: red;
+    font-weight: bold;
+ }
+
+ p::selection{
+    background-color: yellow;
+    color: bisque;
+ }
+
+ ol li:nth-of-type(odd)::marker{
+    content: '😊';
+ }
+
+ ol li:nth-of-type(even)::marker{
+    content: '👌';
+ }
+
+
+ div::before{
+    content:'Sabhi ko';
+    color: red;
+ }
+
+ div::after{
+    content:'Developer';
+    color: Blue;
+ }

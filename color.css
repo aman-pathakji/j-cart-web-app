@@ -1,0 +1,74 @@
+/* /* p{
+    background-color: #ff00ff;
+} */
+
+
+/* transparent */
+/* p{
+    background-color: #ff00ff55;
+}  */
+/* body{
+    background-color: rgba(0, 255, 255, 0.43);
+} */
+
+
+/* Font-Property */
+
+/* Fint-Size */
+/* div{
+    font-size: 100px;
+    color: hsl(37, 98%, 50%);
+}  */
+
+/* Font-Family */
+   
+   /* h3{
+    
+    color: hsl(37, 98%, 50%);
+    font-family: cursive;
+
+    font-size: 100px;
+}
+
+/* Font-Weight */
+  /* h2{
+    color: blue;
+    font-weight: 900;
+    font-variant: small-caps;
+} */
+
+/* Font-Style */
+/* h4{
+    color: brown;
+    font-style:oblique;
+
+}  */
+/* div{
+    text-align: center;
+    font: italic small-caps 700 40px/75px 'Satisfy', cursive;
+
+}
+
+p{
+    line-height: 50px;
+} */
+
+div{
+    background-color: aquamarine;
+   height:400px;
+   width: 500px;
+   /* max-height: 1000px; */
+
+   margin: 250px auto;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: contain;
+   background: linear-gradient(to bottom,orange,white,green);
+   clip-path: circle();
+
+
+}
+
+
+
+
